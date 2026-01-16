@@ -12,6 +12,8 @@ if (idade >= 18){
     console.log("Você é menor de idade");
 }
 
+//--------------------------
+
 const idade2 = 17;
 if (idade2 >= 25) {
     console.log("Você tem idade para casar");
@@ -21,6 +23,8 @@ if (idade2 >= 25) {
     console.log("Você é de menor, vai estudar");
 }
     
+//--------------------------
+
 const valorProduto = 500;
 
 if (valorProduto >= 500) {
@@ -29,4 +33,20 @@ if (valorProduto >= 500) {
     console.log("Você não recebeu frete grátis");
     
 }
+
+//--------------------------
+
+let media = 7;
+
+if (media >= 7) {
+    console.log("Aprovado");
+    
+} else {
+    console.log("Reprovado");
+    
+}
+
+// operador ternario com if/else
+
+media >= 7 ? console.log("Aprovado 2") : console.log("Reprovado 2");
   
